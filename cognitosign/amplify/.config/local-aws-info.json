@@ -1,0 +1,12 @@
+{
+  "dev": {
+    "configLevel": "project",
+    "useProfile": false,
+    "awsConfigFilePath": "C:\\Users\\andrea.tomala\\.amplify\\awscloudformation\\u9T5YoVW6t"
+  },
+  "facelivebm": {
+    "configLevel": "project",
+    "useProfile": false,
+    "awsConfigFilePath": "C:\\Users\\andrea.tomala\\.amplify\\awscloudformation\\Gh36ef1u8t"
+  }
+}

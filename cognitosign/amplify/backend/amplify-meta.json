@@ -1,0 +1,58 @@
+{
+  "providers": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-facelivenessbm-facelivebm-114554-authRole",
+      "UnauthRoleArn": "arn:aws:iam::308528169754:role/amplify-facelivenessbm-facelivebm-114554-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::308528169754:role/amplify-facelivenessbm-facelivebm-114554-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-facelivenessbm-facelivebm-114554-deployment",
+      "UnauthRoleName": "amplify-facelivenessbm-facelivebm-114554-unauthRole",
+      "StackName": "amplify-facelivenessbm-facelivebm-114554",
+      "StackId": "arn:aws:cloudformation:us-east-1:308528169754:stack/amplify-facelivenessbm-facelivebm-114554/675b82c0-e222-11ee-a4d6-0e08d590e54f",
+      "AmplifyAppId": "dhbbp7kt5y4ei"
+    }
+  },
+  "auth": {
+    "facelivenessbm913d74fe": {
+      "customAuth": false,
+      "dependsOn": [],
+      "frontendAuthConfig": {
+        "mfaConfiguration": "OFF",
+        "mfaTypes": [
+          "SMS"
+        ],
+        "passwordProtectionSettings": {
+          "passwordPolicyMinLength": 8,
+          "passwordPolicyCharacters": []
+        },
+        "signupAttributes": [
+          "EMAIL"
+        ],
+        "socialProviders": [],
+        "usernameAttributes": [
+          "EMAIL"
+        ],
+        "verificationMechanisms": [
+          "EMAIL"
+        ]
+      },
+      "providerPlugin": "awscloudformation",
+      "service": "Cognito",
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-facelivenessbm-facelivebm-114554-deployment/amplify-cfn-templates/auth/facelivenessbm913d74fe-cloudformation-template.json",
+        "logicalId": "authfacelivenessbm913d74fe"
+      },
+      "lastPushTimeStamp": "2024-03-14T16:49:58.992Z",
+      "output": {
+        "UserPoolId": "us-east-1_1dMytzXUB",
+        "AppClientIDWeb": "7mmss49sr04morgnlu6ln6mjcv",
+        "AppClientID": "of2r61dq5u3do7diddlvcopac",
+        "IdentityPoolId": "us-east-1:ed32d2a8-aa92-41e6-9740-27754239c628",
+        "UserPoolArn": "arn:aws:cognito-idp:us-east-1:308528169754:userpool/us-east-1_1dMytzXUB",
+        "IdentityPoolName": "facelivenessbm913d74fe_identitypool_913d74fe__facelivebm",
+        "UserPoolName": "facelivenessbm913d74fe_userpool_913d74fe"
+      },
+      "lastPushDirHash": "M1aSQSiw7ueDpu6WuI3lY/4JRvw="
+    }
+  }
+}
